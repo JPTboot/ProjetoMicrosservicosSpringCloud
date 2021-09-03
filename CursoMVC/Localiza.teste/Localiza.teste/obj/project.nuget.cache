@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EoQZ5qfLmmMuEEPOrCUoIdvnjMpU7Smuc0W6ld4P8ydRcm0ZRdbbxT/jP8PC+JFFoKc08QoJxH1bXu7NN3Ttcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MONK\\Desktop\\BOOTCAMP\\CursoMVC\\Localiza.teste\\Localiza.teste\\Localiza.teste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MONK\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\MONK\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MONK\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.5\\swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
+    "C:\\Users\\MONK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.5\\swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
+    "C:\\Users\\MONK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.5\\swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
+    "C:\\Users\\MONK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.5\\swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

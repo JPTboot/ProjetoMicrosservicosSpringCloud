@@ -1,0 +1,146 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+        
+    background-image: url("/netflix-clone-master/img/netflix.png");  
+    font-family: 'Arial', Times, serif;
+    color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+header .logo{
+
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;  
+    text-align: left; 
+    margin-left: 100px;
+    align-items:flex-start;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    
+    margin-right: 10px;
+    background-image: url("/netflix-clone-master/img/netflix."); 
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url("/netflix-clone-master/img/netflix.");
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.filme-principal .acesso{
+    margin-top: 15%;
+    font-size: 24px;
+    text-align:left; 
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    align-content:center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 450px;
+
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 30%;
+    width: 30%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

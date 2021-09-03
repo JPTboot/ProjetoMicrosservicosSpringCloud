@@ -1,0 +1,66 @@
+1 - Entrar na conta GitHub
+
+e-mail: jptbootcamp@gmail.com
+senha:1.jpt.github
+
+2 - Criar um novo repositório: "NovoRepositorio".
+
+3 - Copiar (clonar) o novo repositório.
+
+4 - Abrir a pasta no desktop onde vai ser trabalhado o novo repositorio.
+
+5 - Abrir nesta pasta o Git Bash Here.
+
+6 - Escrever na linha de comandos o seguinte:
+
+git clone "colar aqui o endereço clonado do novo repositorio criado".
+
+7 - Para começar a trabalhar dentro desse diretório fazemos:
+
+cd https://github.com/JPTboot/NovoRepositorio.git
+
+8 - Para ver se está tudo ok, fazer:
+
+git status
+
+9 - Agora é só criar o projeto que quisermos, código, ficheiros e colocar dentro dessa pasta do novo repositório que está no desktop
+
+10 - Se fizermos na linha de comandos novamente:
+
+git status
+
+o github vai detetar que já lá se encontram novos ficheiros na pasta
+
+11 - Podemos agora dar indicação ao controle de versão que queremos enviar tudo o que está na pasta do desktop para atualizar o Git fazendo:
+
+git add .
+
+ou 
+
+git add -a
+
+12 - Depois deste passo, apenas atualizamos o controle de versão local, não se encontra nada ainda no repositório do GitHub. Para atualizar o repositório no GitHub fazemos:
+
+git commit -m "Fazer um comentário do que foi atualizado em termos de ficheiros,etc."
+
+o resultado é que é dada a informação que foi criado um commit para aquele arquivo
+
+
+13 - Se fizermos agora novamente
+
+git status
+
+a informação que obtemos é que temos um commit local e se o quisermos mandar para a núvem temos de enviar um push, fazendo:
+
+git push origin main
+
+Com este comando estamos a enviar todos os commits locais que temos para a núvem. A partir deste momento, fazendo F5, ou atualizando o repositório do GitHub, já lá estão os ficheiros atualizados.
+
+
+
+
+
+
+
+
+

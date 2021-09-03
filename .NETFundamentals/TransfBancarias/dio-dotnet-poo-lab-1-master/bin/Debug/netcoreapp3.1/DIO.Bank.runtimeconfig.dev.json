@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MONK\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MONK\\.nuget\\packages"
+    ]
+  }
+}

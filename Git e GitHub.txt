@@ -1,0 +1,51 @@
+Token:
+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
+
+$ git clone https://github.com/username/repo.git
+Username: JPTboot
+Password: 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
+
+
+
+No Git bash:
+
+1) git config --global user.name "JPTboot"
+2) git config --global user.email "jptbootcamp@gmail.com"
+3) git init
+4) git status
+5) git add .
+6) git status
+7) git commit -m "Meu Projeto Instagram"
+
+Criar um novo repositório remoto no GitHub
+Voltar ao Git bash
+
+8) git remote add origin "https://github.com/JPTboot/Instagram.git"
+8) git remote add origin "https://github.com/JPTboot/ProjetoAppSimplesDeCadastroDeSeries.git"
+
+9) git push -u origin master
+ou
+9) git push origin master
+
+git push origin HEAD:master
+
+Usar isto caso apareça "origin já existente":
+$ git remote set-url origin https://github.com/JPTboot/ProjetoGameCobrinha.git
+
+git remote set-url origin https://github.com/JPTboot/ProjetoAppTransfBancaria.git
+
+
+
+git pull --rebase origin main
+git push origin main
+
+
+ 
+
+git remote add origin "https://github.com/JPTboot/Instagram.git"
+git
+
+/BOOTCAMP/HTMLBootcamp/InstagramCloneProje
+
+
+InstagramCloneProject

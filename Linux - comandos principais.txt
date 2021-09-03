@@ -1,0 +1,148 @@
+comandos Ctrl + Alt + T    -> sequência de teclas para acessar o terminal
+
+
+ls    -> lista diretórios e arquivos
+
+ls  -l    -> opção lista longa com detalhes
+
+ls  ~   -> lista o que está no diretório pessoal
+
+history     ->  hstórico de comandos
+
+man ls   -> manual
+
+man comando   -> exibe o manual do comando
+
+ctrl z      -> sai do co ando atual
+
+mv   <nome da pasta a renomear>    <nome da pasta renomeada>
+
+mv  <nome da pasta a remover>
+
+touch  <nome arquivo>   -> cria arquivos vazios, sem conteúdo
+
+cp  <ficheiro a copiar>   <endereço a enviar o ficheiro copiado>
+
+mv  <ficheiro a mover>   <endereço a mover o ficheiro>
+
+cd ~     -> vai para o diretório pessoal (home)
+
+cd  /     -> vai para o diretório raíz
+
+cd ..    -> retoma ao diretório anterior
+
+--help    -> exibe o arquivo de ajuda de um comando
+
+rmdir      -> remove diretórios
+
+mkdir  <nome da pasta>        -> cria arquivo
+
+rm  <nome do ficheiro a remover>
+
+rm  -r   > remove diretórios com a opção -r
+
+cd dir   ->  muda o diretório atual para outro
+
+clear   -< limpa o terminal
+
+Ctrl d   -> sai do terminal
+
+exit  -> sai do terminal
+
+!!    -> repete o último comando digitado no terminal
+
+
+
+
+##################################
+
+cat texte.txt     -> exibe conteúdos de aruivos no terminal
+ 
+tac texte.txt     -> exibe a ordem inversa dos contaúdos de aruivos no terminal 
+
+nano   -> editor de textos linux
+
+touch   > cria arquivos vavios
+
+find   ->  buscar arquivos
+
+file   ->  exibe o tipo de um arquivo
+
+head   -> exibe as 10 primeiras onhas de comando 
+
+more    ->  exibe paginação de um arquivo de texto
+
+less  ->  exibe paginação de um arquivo de texto
+
+grep     > busca palavras em um arquivo de tetxto
+
+cal  ->  exibe calendário
+
+date   ->  exibe a data atual
+
+whatis  -> exibe um a explicaçºao sobre um comando
+
+tail texte.txt    -> pega as últimas 10 linhas do arquivo.
+
+
+
+############ DIRETÓRIOS PRINCIPAIS ####
+
+/bin/ -> contém executáveis do linux
+/boot/ -> ficheiros para iniciar o sistema
+/dev/ -> contém arquivos de biblioteca, dispositivos, drivers
+/etc/ -> personalização do sistema
+/home/ -> diretório comum. É a pasta pessoal.
+/lib/ -> bibliotecas essencias do sistema
+/media/ -> diretório de montagem de dispositivos
+/mnt/ -> diretório de montagem de dispositivos
+/opt/ -> programas não oficias do sistema mas que eu quero instalar
+/sbin/ -> armazena executáveis
+/srv/ -> serviços oferecidos pelo sistema
+/tmp/ -> para arquivos temporários, de transferência
+/usr/ -> a segunda hierarqui de sistema, onde ficam os usuários do sistema
+/var/ -> onde ficam os históricos, de emails, cache, impressoras
+/root/ -> usuário root, contém o usuário com mais privilégios do sistema
+/proc/ -> diretório virtual controlado pelo kernel. Tem informações sensíveis do kernel
+
+
+###### ifconfig #######
+para instalar o ifconfig fazemos:
+sudo apt install net-tools
+
+###### hostename #######
+para instalar o ifconfig fazemos:
+hostename 
+tras o nome do computador  na rede. Para sabermos o endereço na rede fazemos:
+hostename -I
+
+###### who #######
+tras como estamos logados narede. I.e., o nome, etc.
+
+###### whoami #######
+diz quem restá na rede.
+
+###### ping #######
+ping www.google .com
+
+###### ping host #######
+testa um host
+
+
+###### traceroute #######
+traça a rota da página.       
+para instalar fazemos:
+
+sudo apt install traceroute
+
+###### whois #######
+para saber informações sobre determinado site
+
+###### finger #######
+mostra toda  ainformação do usuário ligado a o nosso jardim
+
+
+
+
+
+
